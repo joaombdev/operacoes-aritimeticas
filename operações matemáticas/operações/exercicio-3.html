@@ -1,0 +1,68 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - 3</title>
+    <meta name="author" content="João Alexandre M. Borges">
+    <meta name="description" content="3. Faça um programa que calcule a velocidade média de um objeto. Para isso, o usuário deve digitar a distância inicial (Di), a distância final (Df), o tempo inicial (Ti) e o tempo final (Tf). O Calculo da Velocidade Média (Vm) se dá por: Vm = (Df - Di)/(Tf - Ti).">
+</head>
+<style>
+    body{
+        background-color: #282828;
+    }
+
+    h1, p{
+        color:aliceblue;
+        font-weight: 100;
+    }
+
+    p{
+        font-size: 23px;
+    }
+    
+    footer{
+        text-align: center;
+        color: aliceblue;
+    }
+
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+</style>
+<script>
+    function calcula(){
+
+        let di = parseInt(document.getElementById('di').value)
+        let df = parseInt(document.getElementById('df').value)
+        let ti = parseInt(document.getElementById('ti').value)
+        let tf = parseInt(document.getElementById('tf').value)
+
+        let vm = (df - di) / (tf - ti)
+        
+        document.getElementById('resposta').innerHTML = 'O valor da Velocidade Média é: ' +vm
+            
+        }
+</script>
+<body>
+    <h1>Atividade número 3 lógica de programação</h1>
+    <p>Digite aqui a distância inicial, a distância final, o tempo inicial e o tempo final. Ao final clique em "Calcular" e <b>receba</b> a velocidade média</p>
+
+    <input type="number" id="di" placeholder="Distância inicial">
+    <input type="number" id="df" placeholder="Distância final">
+    <input type="number" id="ti" placeholder="Tempo inicial">
+    <input type="number" id="tf" placeholder="Tempo final">
+    <button onclick="calcula()">Calcular</button>
+
+    <p id="resposta"></p>
+
+    <hr>
+    <footer>Feito por <i>João Alexandre</i> - 2022</footer>
+</body>
+</html>

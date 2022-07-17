@@ -1,0 +1,73 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício - 2</title>
+    <meta name="author" content="João Alexandre M. Borges">
+    <meta name="description" content="2. Faça um programa que receba dois números inteiros e mostre as quatro operações matemáticas envolvendo esses números.">
+</head>
+<style>
+    body{
+        background-color: #282828;
+    }
+
+    h1, p{
+        color:aliceblue;
+        font-weight: 100;
+    }
+
+    p{
+        font-size: 23px;
+    }
+    
+    footer{
+        text-align: center;
+        color: aliceblue;
+    }
+
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 15px;
+    }
+</style>
+<script>
+    function calcula(){
+
+        let num1 = parseInt(document.getElementById('n1').value)
+        let num2 = parseInt(document.getElementById('n2').value)
+
+        let soma = num1 + num2
+        let sub = num1 - num2
+        let mult = num1 * num2
+        let divi = num1 / num2
+
+        document.getElementById('answer1').innerHTML = 'O valor da soma dos dois números é: ' +soma
+        document.getElementById('answer2').innerHTML = 'O valor da subtração dois números é: ' +sub
+        document.getElementById('answer3').innerHTML = 'O valor da multiplicação dois números é: ' +mult
+        document.getElementById('answer4').innerHTML = 'O valor da divisão dois números é: ' +divi 
+            
+        }
+</script>
+<body>
+    <h1>Atividade número 2 lógica de programação</h1>
+    <p style="font-size: 23px;">Digite dois números e <b>receba</b> as quatro operações com eles:</p>
+
+    <input type="number" id="n1" placeholder="número 1">
+    <input type="number" id="n2" placeholder="número 2">
+    <button onclick="calcula()">Calcular</button>
+
+    <p id="answer1"></p>
+    <p id="answer2"></p>
+    <p id="answer3"></p>
+    <p id="answer4"></p>
+
+    <hr>
+    <footer>Feito por <i>João Alexandre</i> - 2022</footer>
+</body>
+</html>

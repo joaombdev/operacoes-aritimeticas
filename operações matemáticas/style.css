@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@300&family=Sarala&display=swap');
+/*
+font-family: 'Sarala', sans-serif;
+font-family: 'Martel Sans', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    text-decoration: none;
+    vertical-align: baseline;
+    text-decoration: none;
+  }
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*-------------------//----------------------*/
+
+body{
+    background-color: #696969;
+}
+
+header{
+    background-color: #383838;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foto-joao{
+    width: 100px;
+    margin: 40px;
+    border-style: solid;
+    border-radius: 1000px;
+    border-width: 5px;
+}
+
+ul{
+    display: flex;
+    gap: 60px;
+    justify-content: flex-end;
+    text-align: left;
+}
+
+li{
+    display: inline;
+}
+
+.youtube-instagram{
+    width: 50px;
+    padding-left: 30px;
+}
+
+.github{
+    width: 50px;
+    padding-left: 30px;
+}
+
+.javascript{
+    width: 25rem;
+    margin: 30px;
+}
+
+.conteudo{
+    margin: 0 15% 40px;
+    border-top: 0.5px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h1, h2{
+    padding: 30px;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.h1eh2{
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+}
+
+.programas{
+    margin: 0 15%;
+    margin-bottom: 65px;
+    border-top: 0.5px solid #FFF2E7;
+}
+
+.titulo-programas{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.operacoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a:link, a:visited{
+    color: #F5F5F5;
+}
+
+a:active{
+    color: green;
+}
+
+.itens-operacoes{
+    margin: 15px;
+    padding: 15px;
+    border: solid 2px #FFF2E7;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+.itens-operacoes:hover{
+    border: solid 4px green;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #383838;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
