@@ -6,4 +6,4 @@ Na página inicial (home) eu usei HTML5 e CSS3 para mostrar e estilizar os eleme
 
 O uso é bem intuitivo e autoexplicativo. Então qualquer um que está minimamente habituado com uso de tecnologia irá saber usar o programa sem problema algum.
 
-Acesse o site aqui: https://joaombdev.github.io/operacoes-aritimeticas/opera%C3%A7%C3%B5es%20matem%C3%A1ticas/home.html
+[Acesse o aqui clicando aqui!](https://joaombdev.github.io/operacoes-aritimeticas/opera%C3%A7%C3%B5es%20matem%C3%A1ticas/home.html)
